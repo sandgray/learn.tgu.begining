@@ -13,6 +13,7 @@ var activityChangeState:Int = 0
 fun writeLog(msg: String)
 {
     Log.d(TAG, msg)
+    activityChangeState += 1
 }
 
 class MainActivity : AppCompatActivity() {
@@ -24,49 +25,42 @@ class MainActivity : AppCompatActivity() {
         stringsPoem = res.getStringArray(R.array.arrayStringPoem)
 
         writeLog(stringsPoem[activityChangeState].toString())
-        activityChangeState += 1
     }
 
     override fun onStart() {
         super.onStart()
 
         writeLog(stringsPoem[activityChangeState].toString())
-        activityChangeState += 1
     }
 
     override fun onResume() {
         super.onResume()
 
         writeLog(stringsPoem[activityChangeState].toString())
-        activityChangeState += 1
     }
 
     override fun onPause() {
         super.onPause()
 
         writeLog(stringsPoem[activityChangeState].toString())
-        activityChangeState += 1
     }
 
     override fun onStop() {
         super.onStop()
 
         writeLog(stringsPoem[activityChangeState].toString())
-        activityChangeState += 1
     }
 
     override fun onDestroy() {
         super.onDestroy()
 
         writeLog(stringsPoem[activityChangeState].toString())
-        activityChangeState += 1
     }
 
     override fun onRestart() {
         super.onRestart()
 
         writeLog(stringsPoem[activityChangeState].toString())
-        activityChangeState += 1
     }
 
 

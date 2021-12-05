@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birdth date" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Theme.Lesson1.TextInput"
+        android:id="@+id/editName"
+        android:hint="@string/person_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Theme.Lesson1.TextInputAlignCenter"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editBirthDay"
+        style="@style/Theme.Lesson1.TextInput"
+        android:hint="@string/birdthday">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Theme.Lesson1.TextInputAlignCenter"
+            android:inputType="date" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editPhone"
+        style="@style/Theme.Lesson1.TextInput"
+        android:hint="@string/phone_number">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Theme.Lesson1.TextInputAlignCenter"
+            android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editHiLikes"
+        style="@style/Theme.Lesson1.TextInput"
+        android:hint="@string/editHiLikes">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/Theme.Lesson1.TextInput"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

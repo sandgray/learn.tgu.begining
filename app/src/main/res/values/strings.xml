@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">lesson 1 - test</string>
+    <string name="app_name">cpc 7</string>
+    <string name="person_name">Person Name</string>
+    <string name="birdthday">BirdthDay</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="editHiLikes">Hi Likes ...</string>
 
     <string-array name="arrayStringPoem">
         <item>Ты видел деву на скале</item>

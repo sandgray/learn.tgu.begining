@@ -12,5 +12,23 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:textViewStyle">@style/Theme.Lesson1.TextView</item>
+
     </style>
+
+    <style name="Theme.Lesson1.TextView" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+         <item name="android:textSize">24sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Theme.Lesson1.TextInput" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Theme.Lesson1.TextInputAlignCenter" parent="Theme.Lesson1.TextInput">
+        <item name="android:textAlignment">center</item>
+    </style>
+
 </resources>
