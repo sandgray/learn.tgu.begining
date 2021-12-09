@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_bottom_item_dice_roll"
+        android:icon="@drawable/dice"
+        android:title="@string/dice_roll" />
+
+    <item
+        android:id="@+id/menu_bottom_item_delegates"
+        android:icon="@drawable/info"
+        android:title="@string/delegates_tgu" />
+
+</menu>

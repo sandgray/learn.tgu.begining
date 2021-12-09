@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Итоговая работа</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="roll_dice">Кинуть кость</string>
+    <string name="tgu_delegates">Представители ТГУ</string>
+    <string name="dice_roll">Кинуть кость</string>
+    <string name="delegates_tgu">Представители ТГУ</string>
+    <string name="just_seek_our_website">Перейти на сайт</string>
+
+    <string-array name="arrayDelegatesName">
+        <item>Новопашенный Максим Витальевич</item>
+        <item>Мурсалов Эмиль Рашидович</item>
+        <item>Альшевский Павел Александрович</item>
+        <item>Воротникова Елена Сергеевна</item>
+    </string-array>
+
+</resources>
